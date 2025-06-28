@@ -55,8 +55,13 @@
                   @auth
                   <li><a href="#" class="nav-link">Dashboard</a></li>
                   @endauth 
-                  <li><a href="{{route('register.form')}}" class="nav-link">Register</a></li>
-                  <li><a href="{{route('login.form')}}" class="nav-link">Login</a></li>
+
+                  @guest
+                     <li><a href="{{route('register.form')}}" class="nav-link">Register</a></li>
+                     <li><a href="{{route('login.form')}}" class="nav-link">Login</a></li>
+                     
+                  @endguest
+              
                </ul>
             </nav>
          </div>
