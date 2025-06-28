@@ -24,6 +24,7 @@ This project demonstrates manual user authentication in Laravel, covering:
 1. **Clone the project**  
 
    git clone https://github.com/NareshG375/laravel-login.git
+   
    cd laravel-login
 
 2. Install dependencies
